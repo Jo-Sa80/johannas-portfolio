@@ -144,7 +144,7 @@ li {
   transition: all 100ms ease-in-out;
 }
 .content a:hover {
-  color: var(--main-branding-color);
+  color: var(--accent-color);
 }
 .work-galerie p {
   font-size: 14px;
@@ -180,7 +180,7 @@ footer .email-link {
   transition: all 100ms ease-in-out;
 }
 footer .email-link:hover {
-  color: var(--main-branding-color);
+  color: var(--accent-color);
   line-height: 1.5;
 }
 footer .social-links {
