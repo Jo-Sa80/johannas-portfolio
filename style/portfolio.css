@@ -3,9 +3,10 @@
 
   --heading-font: "Playfair Display", serif;
 
-  --main-branding-color: #6c63ff;
-  --primary-color: #f9f7fe;
-  --secondary-color: #272142;
+  --main-branding-color: #80c2b6;
+  --primary-color: #eef4f4;
+  --secondary-color: #3d3c3a;
+  --accent-color: #f0b211;
 }
 
 h1,
@@ -13,6 +14,7 @@ h2,
 h3,
 h4 {
   font-family: var(--heading-font);
+  color: var(--secondary-color);
 }
 h1 {
   font-weight: 700;
@@ -42,15 +44,16 @@ nav li {
 }
 a {
   text-decoration: none;
-  color: var(--secondary-color);
+  color: var(--main-branding-color);
 }
 nav a {
   transition: all 100ms ease-in-out;
 }
 nav a:hover,
 nav a.active {
-  color: var(--main-branding-color);
+  color: var(--accent-color);
 }
+
 li {
   font-family: var(--primary-color);
   font-size: 16px;
@@ -84,7 +87,7 @@ li {
 }
 .btn-branding:hover {
   border: solid 1px var(--main-branding-color);
-  color: #6c63ff;
+  color: var(--accent-color);
   background-color: white;
 }
 .project-paragraph {
@@ -149,7 +152,7 @@ li {
   line-height: 1.5;
 }
 .logo {
-  max-height: 40px;
+  max-height: 60px;
 }
 
 footer {
@@ -191,7 +194,7 @@ footer .social-links {
 }
 footer .social-links:hover {
   color: white;
-  background-color: var(--main-branding-color);
+  background-color: var(--accent-color);
 }
 @media (max-width: 1000px) {
   h1 {
