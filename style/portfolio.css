@@ -61,8 +61,12 @@ li {
 .hero {
   padding: 160px 20px;
   text-align: center;
-  background-color: var(--primary-color);
+  background-image: url("../images/Banner-mit-Foto.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
+
 .hero h2 {
   font-family: var(--primary-font);
   font-weight: 400;
